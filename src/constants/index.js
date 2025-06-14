@@ -12,7 +12,6 @@ import {
     figma,
     docker,
     threejs,
-    carrent,
     CC1,
     CC2,
     CC3,

@@ -3,7 +3,6 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import carrent from "./carrent.png";
 import CC1 from "./CC1.png";
 import CC2 from "./CC2.png";
 import CC3 from "./CC3.png";
@@ -48,7 +47,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
   CC1,
   CC2,
   CC3,
