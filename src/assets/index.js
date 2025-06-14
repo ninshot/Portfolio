@@ -11,6 +11,9 @@ import CC4 from "./CC4.png";
 import CC5 from "./CC5.png";
 import CC6 from "./CC6.png";
 import CC7 from "./CC7.png";
+import WW1 from "./WW1.png";
+import WW2 from "./WW2.png";
+import WW3 from "./WW3.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -52,5 +55,8 @@ export {
   CC4,
   CC5,
   CC6,
-  CC7
+  CC7,
+  WW1,
+  WW2,
+  WW3
 };

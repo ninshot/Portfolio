@@ -20,6 +20,9 @@ import {
     CC5,
     CC6,
     CC7,
+    WW1,
+    WW2,
+    WW3,
   } from "../assets";
   
   export const navLinks = [
@@ -117,7 +120,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: [figma,null],
+      image: [WW1, WW2, WW3],
       source_code_link: "https://github.com/ninshot/Wealthwise",
     },
     
