@@ -19,10 +19,10 @@ const Tech = () => {
     
       <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>
-             </p>
+            WHAT I CAN DO</p>
           <h2 className={styles.heroHeadText}> SKILLS</h2>
       </motion.div>
-      <div className='flex flex-wrap gap-10'>
+      <div className='max-w-3xl flex flex-wrap gap-10'>
         {technologies.map((technology, idx) => (
           <TechnologyCard text = {technology} key={idx}/>
         ))}
