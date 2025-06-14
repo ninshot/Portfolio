@@ -37,6 +37,7 @@ const Computers = ({isMobile}) => {
   )
 }
 
+
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false); //state to check if the device is mobile
 
