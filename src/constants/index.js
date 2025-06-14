@@ -13,6 +13,13 @@ import {
     docker,
     threejs,
     carrent,
+    CC1,
+    CC2,
+    CC3,
+    CC4,
+    CC5,
+    CC6,
+    CC7,
   } from "../assets";
   
   export const navLinks = [
@@ -48,7 +55,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Code Connect",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -65,7 +72,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: [CC1, CC2, CC3, CC4, CC5, CC6, CC7],
       source_code_link: "https://google.com/",
     },
     {
