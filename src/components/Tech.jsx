@@ -7,7 +7,7 @@ import { technologies } from '../constants'
 
 const TechnologyCard = ({text}) => {
   return(
-    <p> {text}</p>
+    <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"> {text}</p>
 
   )
 
@@ -22,7 +22,7 @@ const Tech = () => {
              </p>
           <h2 className={styles.heroHeadText}> SKILLS</h2>
       </motion.div>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='flex flex-wrap gap-10'>
         {technologies.map((technology, idx) => (
           <TechnologyCard text = {technology} key={idx}/>
         ))}

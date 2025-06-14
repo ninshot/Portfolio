@@ -11,9 +11,6 @@ import {
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -40,7 +37,6 @@ import {
     "CSS",
     "React",
     "Node.js",
-    "Express.js",
     "MySQL",
     "C#",
     "C",
@@ -68,7 +64,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: null,
       source_code_link: "https://github.com/",
     },
     {
@@ -89,7 +85,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: null,
       source_code_link: "https://github.com/",
     },
     {
@@ -110,7 +106,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: null,
       source_code_link: "https://github.com/",
     },
   ];
