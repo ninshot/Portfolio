@@ -57,28 +57,40 @@ import {
     {
       name: "Code Connect",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users discuss programming queries by posting, replying, liking and disliking. It also allows users to create channels for specific topics, enabling focused discussions. Users can also search for channels, posts and allows user to bookmark important posts, making it easy to find relevant content.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "green-text-gradient",
+        },
+        {
+          name: "restapi",
           color: "pink-text-gradient",
         },
       ],
       image: [CC1, CC2, CC3, CC4, CC5, CC6, CC7],
-      source_code_link: "https://google.com/",
+      source_code_link: "https://github.com/ninshot/Coder-sBlog",
     },
     {
-      name: "Job IT",
+      name: "Wealth-wise",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A full-stack web application developed as part of a third-year Software Engineering group project. The app provides users with a suite of financial tools, including calculators for monthly car payments, house mortgage, vacation budgeting, daily and monthly expense tracking, and debt management. This was my first collaborative university project.",
       tags: [
         {
           name: "react",
@@ -89,12 +101,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "docker",
           color: "pink-text-gradient",
         },
       ],
       image: [figma,null],
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ninshot/Wealthwise",
     },
     
   ];

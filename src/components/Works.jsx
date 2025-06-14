@@ -24,14 +24,14 @@ const ProejectCard = ({index, name, description, tags, image , source_code_link}
   return(
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <div className='bg-tertiary p-5 rounded-2xl w-full max-w-[500px]'>
-          <div className='relative w-full h-[350px]'>
+          <div className='relative w-full h-[250px]'>
           <Slider {...settings}>
             {image.map((img, i) => (
               <div key={i}>
                 <img
                   src={img}
                   alt={`${name} screenshot ${i + 1}`}
-                  className='w-full h-[350px] object-contain rounded-2xl'
+                  className='w-full h-[250px] object-contain rounded-2xl'
                 />
               </div>
             ))}
