@@ -12,6 +12,7 @@ import {
     figma,
     docker,
     threejs,
+    carrent,
   } from "../assets";
   
   export const navLinks = [
@@ -64,8 +65,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: null,
-      source_code_link: "https://github.com/",
+      image: carrent,
+      source_code_link: "https://google.com/",
     },
     {
       name: "Job IT",
@@ -85,7 +86,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: null,
+      image: figma,
       source_code_link: "https://github.com/",
     },
     {
