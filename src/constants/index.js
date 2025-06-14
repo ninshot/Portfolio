@@ -93,30 +93,10 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: figma,
+      image: [figma,null],
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: null,
-      source_code_link: "https://github.com/",
-    },
+    
   ];
   
   export { technologies, projects };

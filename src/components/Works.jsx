@@ -6,24 +6,37 @@ import { SectionWrapper } from '../hoc'
 import { fadeIn,textVariant } from '../utils/motion'
 import { projects } from '../constants'
 import { github } from '../assets'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick'
 
 const ProejectCard = ({index, name, description, tags, image , source_code_link}) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+  }
   return(
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <Tilt 
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450
-          }}
-          className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
-        >
-          <div className='relative w-full h-[230px]'>
-            <img
-              src = {image}
-              alt = {name}
-              className='w-full h-full object-cover rounded-2xl'
-            />
+        <div className='bg-tertiary p-5 rounded-2xl w-full max-w-[500px]'>
+          <div className='relative w-full h-[350px]'>
+          <Slider {...settings}>
+            {image.map((img, i) => (
+              <div key={i}>
+                <img
+                  src={img}
+                  alt={`${name} screenshot ${i + 1}`}
+                  className='w-full h-[350px] object-contain rounded-2xl'
+                />
+              </div>
+            ))}
+          </Slider>
+
             <div className = 'absolute inset-0 flex justify-end m-3 card-img_hover' >
               <div 
                 onClick={() => window.open(source_code_link, "_blank")}
@@ -53,8 +66,7 @@ const ProejectCard = ({index, name, description, tags, image , source_code_link}
               </p>
             ))}
           </div>
-          
-        </Tilt>
+         </div> 
       </motion.div>
   )
 }
