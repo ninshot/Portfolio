@@ -1,6 +1,5 @@
 import {
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -18,6 +17,12 @@ import {
     WW1,
     WW2,
     WW3,
+    c,
+    python,
+    java,
+    csharp,
+    mysql,
+    rust,
   } from "../assets";
   
   export const navLinks = [
@@ -36,18 +41,19 @@ import {
   ];
   
   const technologies = [
-    "Python",
-    "Java",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "React",
-    "Node.js",
-    "MySQL",
-    "C#",
-    "C",
-    "Rust",
-    "Docker"
+    {name:"Python", image: python},
+    {name: "Java", image: java},
+    {name: "C#", image: csharp},
+    {name: "MySQL", image: mysql},
+    {name: "C", image: c},
+    {name: "Rust", image: rust},
+    { name: "JavaScript", image: javascript },
+    { name: "HTML", image: html },
+    { name: "CSS", image: css },
+    { name: "React", image: reactjs },
+    { name: "Node.js", image: nodejs },
+    { name: "Git", image: git },
+    { name: "Docker", image: docker },
   ];
   
   

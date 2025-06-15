@@ -22,6 +22,12 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import c from "./tech/C.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import csharp from "./tech/csharp.png";
+import mysql from "./tech/mysql.png";
+import rust from "./tech/rust.png";
 
 
 
@@ -47,5 +53,11 @@ export {
   CC7,
   WW1,
   WW2,
-  WW3
+  WW3,
+  c,
+  python,
+  java,
+  csharp,
+  mysql,
+  rust,
 };
