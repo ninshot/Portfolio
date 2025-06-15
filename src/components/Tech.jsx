@@ -14,7 +14,7 @@ const TechnologyCard = ({technology}) => {
         className="w-10 h-10 object-contain"
       />
       <p className="text-secondary text-[17px] leading-[30px]">
-        {technology.name}
+        
       </p>
     </div>
 
